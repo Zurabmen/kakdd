@@ -1,0 +1,122 @@
+/* Headeris Styles Start */
+/* Background Color */
+.burger{
+    margin-right: 20px;
+    display: none;
+}
+.hotel{
+    transition: all 2s 3s linear;
+}
+.hotel:hover{
+    background-color: aqua;
+}
+.container{
+    display: flex;
+}
+.bg-orange{
+    background-color: orange;
+    width: 50%;
+}
+.bg-white{
+    background-color: white;
+    width: 50%;
+}
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-ul{
+    display: flex;
+    align-items: center;
+    column-gap: 55px;
+}
+
+.sign-up {
+    padding: 5px 10px;
+    border: 1px solid rgb(33, 33, 33);
+    border-radius: 4px;
+}
+
+.sign-up:hover {
+    background-color: red;
+}
+.div-header{
+    max-width: 1085px;
+    width: 100%;
+    margin-top: 45px;
+}
+header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.desti{
+    transition-property: all;
+    transition-delay: 2s;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+}
+.desti:hover {
+    background-color: red;
+}
+/* Section 1 */
+.section-1{
+     max-width: 1166px;
+     width: 100%;
+     margin-left: 133px;
+}
+.h1{
+    color: #DF6951;
+    margin-top: 121px;
+    margin-bottom: 33px;
+}
+.h2{
+    max-width: 489px;
+    color: blue;
+    font-size: 50px;
+}
+.h3{
+    margin-top: 49px;
+    max-width: 389px;
+}
+/* Find-demo */
+.p1 {
+    background-color: orange;
+    border-radius: 50px;
+    border: 5px solid;
+    padding: 5px 10px;
+    color: white;
+    /* display: inline-block; */
+}
+.burti{
+    width: 25px;
+    height: 25px;
+    background-color: orange;
+    border-radius: 300px;
+    margin-right: 12px;
+    margin-left: 39px;
+}
+.find-demo{
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+}
+/* divform */
+.div-form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+form{
+    max-width: 200px;
+    margin: 0 auto;
+    width: 100%;
+}

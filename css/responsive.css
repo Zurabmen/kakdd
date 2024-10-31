@@ -1,0 +1,15 @@
+@media (max-width: 739px){
+    .nav-bar {
+       display: none;
+    }
+    .burger{
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 2s 3s linear;
+    }
+    .burger:hover{
+        color: red;
+    }
+}
